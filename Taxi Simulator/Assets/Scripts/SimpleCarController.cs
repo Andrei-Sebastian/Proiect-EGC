@@ -20,8 +20,8 @@ public class SimpleCarController : MonoBehaviour {
 
 	private void Accelerate()
 	{
-		frontDriverW.motorTorque = m_verticalInput * motorForceFront;
-		frontPassengerW.motorTorque = m_verticalInput * motorForceBack;
+		frontDriverW.motorTorque = m_verticalInput * motorForce;
+		frontPassengerW.motorTorque = m_verticalInput * motorForce;
         
 	}
 
@@ -54,6 +54,7 @@ public class SimpleCarController : MonoBehaviour {
 
 	private float m_horizontalInput;
 	private float m_verticalInput;
+    private float m_spaceInput;
 	private float m_steeringAngle;
 
 	public WheelCollider frontDriverW, frontPassengerW;
@@ -61,7 +62,5 @@ public class SimpleCarController : MonoBehaviour {
 	public Transform frontDriverT, frontPassengerT;
 	public Transform rearDriverT, rearPassengerT;
 	public float maxSteerAngle = 30;
-	public float motorForceFront = 500;
-    public float motorForceBack = 50;
-    public float m_spaceInput = 0;
+	public float motorForce = 50;
 }
