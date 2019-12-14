@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 43.2
+    x: 8
+    y: 51
     width: 1536
-    height: 780.8
+    height: 781
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 7}
@@ -370,8 +370,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 532
+    x: 8
+    y: 540
     width: 1092
     height: 253
   m_ViewDataDictionary: {fileID: 0}
@@ -394,14 +394,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Proiect-EGC\Taxi Simulator
+  m_LastProjectPath: C:\Users\seby_\Documents\GitHub\Proiect-EGC\Taxi Simulator
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 66}
     m_SelectedIDs: 442f0000
     m_LastClickedID: 12100
-    m_ExpandedIDs: 00000000442f0000f62f000044310000a4310000d43100002c330000c43300009a350000c8350000943700000638000026380000123b0000363b0000563e0000583e00005a3e00005c3e00005e3e0000603e0000623e0000643e0000663e0000683e000000ca9a3b
+    m_ExpandedIDs: 00000000442f0000f62f000044310000a4310000d43100002c330000c433000098350000c6350000923700000438000024380000103b0000343b00005e3e0000603e0000623e0000643e0000663e0000683e00006a3e00006c3e00006e3e0000703e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -429,7 +429,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000442f0000f62f000044310000a4310000d43100002c330000c43300009a350000c8350000943700000638000026380000123b0000363b0000563e0000583e00005a3e00005c3e00005e3e0000603e0000623e0000643e0000663e0000683e0000
+    m_ExpandedIDs: 00000000442f0000f62f000044310000a4310000d43100002c330000c433000098350000c6350000923700000438000024380000103b0000343b00005e3e0000603e0000623e0000643e0000663e0000683e00006a3e00006c3e00006e3e0000703e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,8 +506,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1092
-    y: 73.6
+    x: 1100
+    y: 81
     width: 442
     height: 712
   m_ViewDataDictionary: {fileID: 0}
@@ -544,17 +544,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73.6
+    x: 8
+    y: 81
     width: 326
     height: 440
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f63c0000
-      m_LastClickedID: 15606
-      m_ExpandedIDs: 76fbffff
+      m_SelectedIDs: aa3c0000
+      m_LastClickedID: 15530
+      m_ExpandedIDs: 74fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -599,8 +599,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 326.4
-    y: 73.6
+    x: 334
+    y: 81
     width: 764
     height: 440
   m_ViewDataDictionary: {fileID: 0}
@@ -647,7 +647,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.11056009, y: -0.4439373, z: 0.055240214, w: -0.88757306}
     speed: 2
-    m_Value: {x: -0.11071749, y: -0.44124144, z: 0.05490441, w: -0.8888382}
+    m_Value: {x: 0.11056009, y: 0.44393733, z: -0.055240214, w: 0.88757306}
   m_Size:
     m_Target: 11.9570465
     speed: 2
