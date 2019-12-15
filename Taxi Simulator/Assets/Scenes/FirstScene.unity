@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 170878644}
   - component: {fileID: 170878643}
   m_Layer: 0
-  m_Name: Classic_16_Door_R
+  m_Name: PortieraDreapta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,12 +405,15 @@ Transform:
   m_LocalPosition: {x: 4.4920664, y: -0.10426712, z: 1.620448}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 671098182}
+  - {fileID: 1623361300}
+  - {fileID: 1165754467}
   - {fileID: 476045251}
   - {fileID: 1550159468}
   - {fileID: 547225046}
   - {fileID: 54214365}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &225094293
 PrefabInstance:
@@ -453,7 +456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -494,7 +497,7 @@ GameObject:
   - component: {fileID: 261470166}
   - component: {fileID: 261470165}
   m_Layer: 0
-  m_Name: Classic_16_Door_L
+  m_Name: PortieraStanga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -577,7 +580,7 @@ GameObject:
   - component: {fileID: 268219606}
   - component: {fileID: 268219605}
   m_Layer: 0
-  m_Name: Classic_16_LightGlass_L
+  m_Name: FarFataStanga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -773,7 +776,7 @@ GameObject:
   - component: {fileID: 441878621}
   - component: {fileID: 441878620}
   m_Layer: 0
-  m_Name: Classic_16_Bumper_F_3
+  m_Name: BaraFata
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -874,7 +877,7 @@ GameObject:
   m_Component:
   - component: {fileID: 461042348}
   m_Layer: 0
-  m_Name: RearPassenger
+  m_Name: RoataSpateDreapta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -923,7 +926,7 @@ GameObject:
   - component: {fileID: 582473750}
   - component: {fileID: 582473749}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Pamantul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -941,7 +944,7 @@ Transform:
   m_LocalScale: {x: 124.884895, y: 0.15759178, z: 124.88467}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &582473749
 BoxCollider:
@@ -1097,7 +1100,7 @@ GameObject:
   - component: {fileID: 639136796}
   - component: {fileID: 639136795}
   m_Layer: 0
-  m_Name: Classic_16_Body
+  m_Name: CorpMasina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1167,6 +1170,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 639136793}
   m_Mesh: {fileID: 4300000, guid: 000e268602069ee41b503cc210240ef7, type: 3}
+--- !u!4 &671098182 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1722369303}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &681641044
 GameObject:
   m_ObjectHideFlags: 0
@@ -1346,7 +1355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 717948543}
   m_Layer: 0
-  m_Name: WheelColliders
+  m_Name: RotiColliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1383,7 +1392,7 @@ GameObject:
   - component: {fileID: 751120203}
   - component: {fileID: 751120202}
   m_Layer: 0
-  m_Name: Classic_16_LightGlass_R
+  m_Name: FarFataDreapta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1493,7 +1502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8084eb7b4b8d132469f790551235bc92, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8084eb7b4b8d132469f790551235bc92, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1701,7 +1710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 926194729}
   m_Layer: 0
-  m_Name: FrontDriver
+  m_Name: RoataFataStanga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1730,7 +1739,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 219121240}
     m_Modifications:
     - target: {fileID: 100000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_Name
@@ -1738,15 +1747,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -4.4920664
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.094
+      value: 0.010267124
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.069
+      value: -8.689447
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1766,7 +1775,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1786,11 +1795,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.20000012
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 0.20000012
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
@@ -1888,7 +1897,7 @@ GameObject:
   - component: {fileID: 987008788}
   - component: {fileID: 987008789}
   m_Layer: 0
-  m_Name: RearPassenger
+  m_Name: SpateDreapta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1953,7 +1962,7 @@ GameObject:
   - component: {fileID: 989179107}
   - component: {fileID: 989179106}
   m_Layer: 0
-  m_Name: Classic_16_Bumper_B_3
+  m_Name: BaraSpate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2054,7 +2063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 996608181}
   m_Layer: 0
-  m_Name: FrontPassenger
+  m_Name: RoataFataDreapta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2091,7 +2100,7 @@ GameObject:
   - component: {fileID: 1007681080}
   - component: {fileID: 1007681079}
   m_Layer: 0
-  m_Name: Classic_16_Hood
+  m_Name: Capota
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2173,7 +2182,7 @@ GameObject:
   - component: {fileID: 1015379778}
   - component: {fileID: 1015379779}
   m_Layer: 0
-  m_Name: FrontPassenger
+  m_Name: FataDreapta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2237,7 +2246,7 @@ GameObject:
   - component: {fileID: 1096743199}
   - component: {fileID: 1096743198}
   m_Layer: 0
-  m_Name: Classic_16_Roof
+  m_Name: Cupola
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2307,12 +2316,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096743196}
   m_Mesh: {fileID: 4300014, guid: 000e268602069ee41b503cc210240ef7, type: 3}
+--- !u!4 &1165754467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e,
+    type: 3}
+  m_PrefabInstance: {fileID: 937027182}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1178961376
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 219121240}
     m_Modifications:
     - target: {fileID: 100000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_Name
@@ -2320,15 +2335,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -4.4920664
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.092
+      value: 0.01226712
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.37
+      value: -10.990448
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2348,7 +2363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2368,11 +2383,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.20000012
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 0.20000012
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
@@ -2499,7 +2514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2539,7 +2554,7 @@ GameObject:
   - component: {fileID: 1407755778}
   - component: {fileID: 1407755779}
   m_Layer: 0
-  m_Name: RearDriver
+  m_Name: SpateStanga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2683,7 +2698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1502443714}
   m_Layer: 0
-  m_Name: Wheels
+  m_Name: Roti
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2796,7 +2811,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 45, y: 130, z: 90}
 --- !u!4 &1550159468 stripped
 Transform:
@@ -2900,6 +2915,12 @@ Transform:
   m_Father: {fileID: 2084172967}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1623361300 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1178961376}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1641670865
 GameObject:
   m_ObjectHideFlags: 0
@@ -2977,7 +2998,7 @@ GameObject:
   - component: {fileID: 1696973025}
   - component: {fileID: 1696973024}
   m_Layer: 0
-  m_Name: Classic_16_Dashboard
+  m_Name: Interior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3060,7 +3081,7 @@ GameObject:
   - component: {fileID: 1703296077}
   - component: {fileID: 1703296079}
   m_Layer: 0
-  m_Name: Classic_16
+  m_Name: Golf4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3099,7 +3120,7 @@ Transform:
   - {fileID: 1502443714}
   - {fileID: 717948543}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1703296077
 BoxCollider:
@@ -3151,7 +3172,7 @@ MonoBehaviour:
   rearDriverT: {fileID: 2084172967}
   rearPassengerT: {fileID: 461042348}
   maxSteerAngle: 30
-  motorForce: 50
+  motorForce: 200
 --- !u!1 &1704497364
 GameObject:
   m_ObjectHideFlags: 0
@@ -3189,7 +3210,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 219121240}
     m_Modifications:
     - target: {fileID: 100000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_Name
@@ -3197,15 +3218,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -4.4920664
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.096
+      value: 0.0082671195
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.65
+      value: -13.270448
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3225,7 +3246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3245,11 +3266,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.20000012
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 0.20000012
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
@@ -3413,7 +3434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c24014bb2573314439344bb71ce5ef2e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3453,7 +3474,7 @@ GameObject:
   - component: {fileID: 1980225277}
   - component: {fileID: 1980225278}
   m_Layer: 0
-  m_Name: FrontDriver
+  m_Name: FataStanga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3517,7 +3538,7 @@ GameObject:
   - component: {fileID: 2006489877}
   - component: {fileID: 2006489876}
   m_Layer: 0
-  m_Name: Classic_16_Taillights
+  m_Name: FaruriSpate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3598,7 +3619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2084172967}
   m_Layer: 0
-  m_Name: RearDriver
+  m_Name: RoataSpateStanga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
